@@ -17,7 +17,7 @@ Wenn es hell, soll die Matrix ausgeschaltet sein.
 
 
 
-## Schritt 1 @fullscreen
+## Schritt 1 
 
 Erstelle eine Variable ``||variable:schwellenwert||`` welche den Wert enthält, bei welchem der @boardname@ die LED's einschalten soll.
 

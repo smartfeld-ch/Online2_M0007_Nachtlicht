@@ -11,7 +11,8 @@
         "README.md",
         "main.blocks",
         "main.ts",
-        "tutorial.md"
+        "tutorial.md",
+        "_locales/de-DE/tutorial.md"
     ],
     "testFiles": [
         "test.ts"
