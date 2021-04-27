@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="2/Be]x{i^=Dvz+rdXuV5" x="0" y="0"/><block type="device_forever" id="3xq0uOyO*;LDHJ_kI6lz" x="205" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=")m1?=jT!G_ckGXoB,ubI">schwellenwert</variable></variables><block type="pxt-on-start" id="[.XCM~t~e8o8HC6}F^1=" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="[r@]yX-+YJj9t/-yOeEV"><field name="VAR" id=")m1?=jT!G_ckGXoB,ubI">schwellenwert</field><value name="VALUE"><shadow type="math_number" id="{e2_j_HbZyUAI0%i:I@z"><field name="NUM">100</field></shadow></value></block></statement></block><block type="device_forever" id="M)Zddi7^]EF8XZ2*l7vM" x="441" y="0"><statement name="HANDLER"><block type="controls_if" id="u=7`=y?em1!/OThv*mFP"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="M$oofbq~)VD*-q#I~*6K"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="~ni$G:`gI_keeWp$][Dm"/></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="y@fi(f1+=))vL2SpXo{N"><field name="VAR" id=")m1?=jT!G_ckGXoB,ubI">schwellenwert</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="]O6U/XgPT.RBA|81jUY#"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="1Xk;-)|wd^lF#|6vi%5N"/></statement></block></statement></block></xml>
